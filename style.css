@@ -85,7 +85,7 @@ button {
 }
 
 .third-part {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(214, 214, 214);
     margin: 0;
     padding: 0;
     color: rgb(97, 97, 97);
@@ -94,9 +94,26 @@ button {
     font-size: 24px;
 }
 
-.author{
+.author {
     margin-top: 16px;
     font-weight: 700;
     text-align: end;
     color: rgb(46, 46, 46);
+}
+
+.fourth-part {
+    background-color: rgb(255, 255, 234);
+    padding: 64px 192px;
+}
+
+.action-container {
+    background-color: rgb(255, 169, 64);
+    padding: 32px 64px;
+    border-radius: 8px;
+}
+
+.action-container button {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 234);
 }
