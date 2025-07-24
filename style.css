@@ -127,3 +127,9 @@ button {
     font-weight: 700;
     font-size: large;
 }
+
+footer {
+    color: beige;
+    text-align: center;
+    padding: 24px;
+}
