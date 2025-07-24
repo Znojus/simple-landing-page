@@ -1,6 +1,9 @@
 body {
     background-color: rgb(97, 57, 9);
 }
+body > * {
+    min-width: 500px;
+}
 
 header {
     display: flex;
