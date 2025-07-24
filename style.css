@@ -1,11 +1,16 @@
 body {
-    padding: 0px 128px;
     background-color: rgb(48, 8, 18);
+}
+
+header,
+.hero-section,
+.card-section {
+    padding: 0px 128px;
 }
 
 header {
     display: flex;
-    padding: 16px;
+    padding: 16px 128px;
     color: beige;
     justify-content: space-between;
     background-color: rgb(97, 57, 9);
@@ -62,10 +67,10 @@ button {
     border-radius: 8px;
 }
 
-.card-section,
-h2 {
+.second-part {
     text-align: center;
-    color: beige;
+    color: rgb(53, 53, 53);
+    background-color: rgb(255, 255, 206);
 }
 
 .card-section {
@@ -73,7 +78,7 @@ h2 {
     gap: 32px;
     align-items: center;
     justify-content: center;
-    padding: 24px 64px;
+    padding: 24px 256px;
 }
 
 .card-section img {
