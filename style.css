@@ -85,5 +85,18 @@ button {
 }
 
 .third-part {
-    background-color: aliceblue;
+    background-color: rgb(190, 190, 190);
+    margin: 0;
+    padding: 0;
+    color: rgb(97, 97, 97);
+    font-style: italic;
+    padding: 82px 192px;
+    font-size: 24px;
+}
+
+.author{
+    margin-top: 16px;
+    font-weight: 700;
+    text-align: end;
+    color: rgb(46, 46, 46);
 }
