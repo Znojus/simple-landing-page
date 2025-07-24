@@ -2,12 +2,6 @@ body {
     background-color: rgb(48, 8, 18);
 }
 
-header,
-.hero-section,
-.card-section {
-    padding: 0px 128px;
-}
-
 header {
     display: flex;
     padding: 16px 128px;
@@ -39,6 +33,7 @@ a {
     display: flex;
     color: beige;
     gap: 24px;
+    padding: 48px 128px;;
 }
 
 .hero-left {
@@ -54,7 +49,7 @@ img {
 
 .hero-title {
     font-size: 48px;
-    margin-bottom: 8px;
+    margin: 8px 0;
 }
 
 button {
@@ -70,7 +65,11 @@ button {
 .second-part {
     text-align: center;
     color: rgb(53, 53, 53);
-    background-color: rgb(255, 255, 206);
+    background-color: rgb(255, 255, 234);
+    padding: 0px 192px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
 }
 
 .card-section {
@@ -78,10 +77,13 @@ button {
     gap: 32px;
     align-items: center;
     justify-content: center;
-    padding: 24px 256px;
 }
 
 .card-section img {
     min-width: 0;
     height: 150px;
+}
+
+.third-part {
+    background-color: aliceblue;
 }
